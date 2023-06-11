@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Pacifico", cursive;
+}
+
+:root {
+  --1: white;
+}
+
+h1 {
+  color: var(--1);
+  font-size: 5vw;
+  text-align: center;
+  text-shadow: 0 0 1vw rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
