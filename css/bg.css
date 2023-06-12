@@ -1,3 +1,4 @@
+/* STARS = bg + stars*/
 .stars {
   position: fixed;
   top: 0;
@@ -8,6 +9,8 @@
   pointer-events: none;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
+
+/* STAR = Single star */
 
 .star {
   position: absolute;
