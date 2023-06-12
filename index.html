@@ -30,8 +30,18 @@
     </section>
 
     <section id="sec2">
-      <h1>Login Page</h1>
-      <form></form>
+      <div class="container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+          <label id="use" for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label id="pas" for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <input type="submit" value="Login" />
+        </form>
+      </div>
     </section>
 
     <!-- JAVASCRIPT -->

@@ -1,0 +1,44 @@
+:root {
+  --1: white;
+  --2: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+}
+.container h2 {
+  text-align: center;
+  color: var(--1);
+  font-size: 5vw;
+}
+
+#pas,
+#use {
+  color: var(--1);
+  font-size: 3vw;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  padding: 5px;
+  font-size: 2vw;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--2);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container input[type="submit"]:hover {
+  opacity: 0.5;
+}

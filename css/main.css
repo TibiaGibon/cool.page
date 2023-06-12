@@ -9,10 +9,23 @@
   --1: white;
 }
 
+::-webkit-scrollbar {
+  width: 0.75vw;
+  background-color: #090a0f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1b2735;
+  border-radius: 0.5vw;
+}
+
+body {
+  text-align: center;
+}
+
 h1 {
   color: var(--1);
-  font-size: 5vw;
-  text-align: center;
+  font-size: 10vw;
+  display: block;
   text-shadow: 0 0 1vw rgba(255, 255, 255, 0.5);
   z-index: 1;
 }
